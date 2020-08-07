@@ -5,5 +5,3 @@ metadata:
 spec:
   definitionRef:
     name: clonesetworkloads.apps.kruise.io
-  extension:
-    alias: cloneset

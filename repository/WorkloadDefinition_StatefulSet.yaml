@@ -5,5 +5,3 @@ metadata:
 spec:
   definitionRef:
     name: statefulsets.apps
-  extension:
-    alias: statefulset

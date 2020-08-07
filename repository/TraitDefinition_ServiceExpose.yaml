@@ -5,5 +5,3 @@ metadata:
 spec:
   definitionRef:
     name: serviceexposes.core.oam.dev
-  extension:
-    alias: expose
