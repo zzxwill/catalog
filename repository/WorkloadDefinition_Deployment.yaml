@@ -27,7 +27,8 @@ spec:
       		}]
       	}
       }
-      deployment: {
+      
+      #deployment: {
       	name:  string
       	image: string
       	port:  *8080 | int
