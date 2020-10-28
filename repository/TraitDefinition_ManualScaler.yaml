@@ -1,9 +1,0 @@
-apiVersion: core.oam.dev/v1alpha2
-kind: TraitDefinition
-metadata:
-  name: manualscalertrait.core.oam.dev
-spec:
-  appliesToWorkloads:
-    - core.oam.dev/v1alpha2.ContainerizedWorkload
-  definitionRef:
-    name: manualscalertraits.core.oam.dev
