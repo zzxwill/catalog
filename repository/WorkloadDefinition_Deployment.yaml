@@ -13,11 +13,11 @@ spec:
       output: {
       	apiVersion: "apps/v1"
       	kind:       "Deployment"
-      	metadata: name: deployment.name
+      	metadata: name: parameter.name
       	spec: {
       		containers: [{
-      			image: deployment.image
-      			name:  deployment.name
+      			image: parameter.image
+      			name:  parameter.name
       			ports: [{
       				containerPort: deployment.port
       				protocol:      "TCP"
