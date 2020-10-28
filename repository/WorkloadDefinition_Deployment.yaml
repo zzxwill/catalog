@@ -19,7 +19,7 @@ spec:
       			image: parameter.image
       			name:  parameter.name
       			ports: [{
-      				containerPort: deployment.port
+      				containerPort: parameter.port
       				protocol:      "TCP"
       				name:          "default"
       			}]
